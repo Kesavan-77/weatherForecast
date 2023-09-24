@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+.container{
+  display: flex;
+}
+.home{
+  flex: 1;
+  min-height: 100vh;
+}
+.logo{
+  text-align: center;
+  margin-top: 2cm;
+  font-size: 38px;
+  font-weight: bold;
+}
+.search-items{
+  margin-left: 60px;
+  margin-top: 2cm;
+}
+.search-items .search-title{
+  font-size: 22px;
+  font-weight: 500;
+}
+.search-items .search-bar{
+  font-size: 15px;
+  margin-top: 8px;
+  padding: 8px 8px 8px 8px;
+  width: 95%;
+  border-radius: 5px;
+  border: 3px solid #696969;
+}
+.submit{
+  text-align: center;
+  margin-top: 1cm;
+}
+.submit .btn{
+  width:30%;
+  padding: 7px 7px 7px 7px;
+  font-size: 18px;
+  border-radius: 5px;
+  border-style: none;
+  background: #1396FF;
+  color: white;
+}
+.content{
+  flex: 1.5;
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+}
+.content .icon{
+  text-align: center;
+}
+.location{
+  display: flex;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight:200;
+}
+.location-name{
+  flex: 1;
+  margin-top: 70px;
+}
+.date{
+  flex: 1;
+  text-align: end;
+}
+.report{
+  display: flex;
+  margin-top: 50px;
+}
+.temperature{
+  flex: 1;
+  text-align: center;
+}
+.temp{
+  font-size: 20px;
+  font-weight: 500;
+}
+.temp-val{
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 500;   
+}
+.climate{
+  flex: 1;
+  text-align: center;
+}
+.details{
+  margin-top: 3cm;
+}
+.list{
+  display: flex;
+  padding: 10px;
+}
+.list .th{
+  flex: 1;
+  text-align: start;
+  font-size: 15px;
+  font-weight: 700;
+}
+.list .td{
+  flex: 1;
+  padding-right: 15px;
+  text-align: end;
+}
