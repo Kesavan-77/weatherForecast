@@ -4,12 +4,22 @@
   box-sizing: border-box;
   font-family: Poppins;
 }
-.container{
-  display: flex;
+@media screen and (max-width: 766px) {
+  .container{
+   display: flex;
+   flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container{
+   display: flex;
+  }
 }
 .home{
   flex: 1;
   min-height: 100vh;
+  background-color: #1a2f4b;
+  color: #ffffff;
 }
 .logo{
   text-align: center;
@@ -48,7 +58,7 @@
 }
 .content{
   flex: 1.5;
-  background-color: rgb(255, 255, 255);
+  background-color:#ffffff;
   min-height: 100vh;
 }
 .content .icon{
